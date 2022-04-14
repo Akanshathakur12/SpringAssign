@@ -23,12 +23,12 @@ public class AppConfig {
 	}
 	@Bean("person")
 	public Person getPerson() {
-		Person person = new Person("Anthony","male",26);
+		Person person = new Person("Anthony","Star",1234);
 		return person;
 	}
 	@Bean("animal")
 	public Animal getAnimal() {
-		Animal animal = new Animal("Porker");
+		Animal animal = new Animal("abc");
 		return animal;
 	}
 
