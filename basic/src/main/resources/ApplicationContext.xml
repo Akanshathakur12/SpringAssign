@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="
+                http://www.springframework.org/schema/beans
+                http://www.springframework.org/schema/beans/spring-beans.xsd
+                http://www.springframework.org/schema/context
+                http://www.springframework.org/schema/context/spring-context.xsd">
+                
+     			<context:annotation-config />
+     			
+     			<bean id= "person" class="com.assignment.spring.model.Person" >
+     			   <constructor-arg index= "0" value= "Anthony" />
+     			   <constructor-arg index= "1" value= "star" />
+     			   <constructor-arg index= "2" value= "23" />
+     			    			
+     			</bean>
+     			<bean id= "animal" class="com.assignment.spring.model.Animal" >
+     			   <constructor-arg index= "0" value= "abc" />
+     			   
+     			  
+     			    			
+     			</bean>
+     			<bean id= "horse" class="com.assignment.spring.model.Horse" >
+     			   <constructor-arg index= "0" value= "23" />
+     			   <constructor-arg index= "1" value= "leaves" />
+     			  
+     			    			
+     			</bean>
+     			<bean id= "elephant" class="com.assignment.spring.model.Elephant" >
+     			   <constructor-arg index= "0" value= "Asian" />
+     			   <constructor-arg index= "1" value= "Bananas" />
+     			   
+     			    			
+     			</bean>
+     			
+     			
+  </beans>   			
