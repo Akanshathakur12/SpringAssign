@@ -1,9 +1,8 @@
-package com.assignment.spring.test;
+package com.assignment.spring.config;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import com.assignment.spring.config.AppConfig;
 import com.assignment.spring.model.Elephant;
 import com.assignment.spring.model.Horse;
 import com.assignment.spring.model.Person;

@@ -37,7 +37,7 @@ public class Elephant extends Animal {
 	@Override
 	public String toString() {
 		System.out.println("elephant details are");
-		return " The breed of elephant  is "+breed+" months and it eats "+e_food;
+		return " The breed of elephant  is "+breed+" and it eats "+e_food;
 	}
 
 

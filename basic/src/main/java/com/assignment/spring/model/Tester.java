@@ -1,11 +1,7 @@
-package com.assignment.spring.test;
+package com.assignment.spring.model;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-
-import com.assignment.spring.model.Elephant;
-import com.assignment.spring.model.Horse;
-import com.assignment.spring.model.Person;
 
 public class Tester {
 
